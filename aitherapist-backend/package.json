@@ -1,0 +1,35 @@
+{
+  "name": "aitherapist-backend",
+  "version": "1.0.0",
+  "description": "Backend for AI Therapist application",
+  "main": "dist/server.js",
+  "scripts": {
+    "start": "ts-node src/server.ts",
+    "dev": "ts-node-dev --respawn src/server.ts",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/form-data": "^2.5.2",
+    "@types/ws": "^8.5.14",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "form-data": "^4.0.2",
+    "openai": "^4.85.2",
+    "pg": "^8.13.3",
+    "ws": "^8.18.1"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.13.4",
+    "@types/pg": "^8.11.11",
+    "ts-node": "^10.9.2",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.3.3"
+  }
+}
