@@ -1,4 +1,4 @@
-# Vibec-oded AI Therapist App
+# AI Therapist App (Vibecoded)
 
 An AI therapy application built playing with Windsurf vibecoding, featuring real-time voice interactions and natural language processing. The app provides supportive conversations across multiple domains: therapy, relationships, career counseling, and life coaching.
 
